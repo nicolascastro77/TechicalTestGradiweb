@@ -9,7 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolascastro77/TechicalTestGradiweb.git"
+    "url": "git+https://github.com/nicolascastro77/TechicalTestGradiweb.git",
+    "build:css": "sass src/sass/main.scss src/styles/main.css"
   },
   "keywords": [
     "Js",
