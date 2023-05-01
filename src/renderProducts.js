@@ -4,8 +4,8 @@ export default async function renderProducts(products, container) {
 
     products.forEach((product, indice) => { //Por cada producto del objeto creamos y manipulamos elemento del dom
 
-        const sliderContainer = document.createElement('div');
-        sliderContainer.classList.add('slider');
+        // const sliderContainer = document.createElement('div');
+        // sliderContainer.classList.add('slider');
 
         const cardContent = document.createElement('div');
         cardContent.classList.add('card-content');

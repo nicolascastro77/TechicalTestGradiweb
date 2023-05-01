@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass" : "node-sass src/sass/main.scss src/styles/main.css --watch"
+    "compile:sass": "node-sass src/sass/main.scss src/styles/main.css --watch",
+    "build:css": "sass src/sass/main.scss src/styles/main.css"
+
   },
   "repository": {
     "type": "git",
