@@ -1,0 +1,41 @@
+//EStilos header
+
+.top-bar {
+  height: 32px;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: $primary-palette-brand-2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.top-bar-text {
+  font-family: $desktop-h2-desktop;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $body-titles;
+}
+
+@media (max-width: 768px) {
+  .top-bar-text {
+    font-family: $font-neogrotesk-ess;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+}

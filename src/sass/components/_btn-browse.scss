@@ -1,0 +1,29 @@
+//Estilos boton browse
+
+.browse-section {
+  margin-top: 79px;
+}
+
+.button-browse {
+  width: 237px;
+  height: 48px;
+  background: $primary-palette-brand-2;
+  opacity: 0.9;
+  border: 1px solid $primary-palette-brand-2;
+  border-radius: 100px;
+  font-family: ($font-neogrotesk-ess);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .browse-section {
+    margin-top: 41px;
+  }
+}

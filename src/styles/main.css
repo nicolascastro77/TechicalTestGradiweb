@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
+@font-face {
+  font-family: 'Neogrotesk Ess';
+  src: url(/src/fonts/Fontspring-DEMO-neogroteskess-regular.otf) format("opentype"); }
+
+@font-face {
+  font-family: 'Filson Pro';
+  src: url(/src/fonts/FilsonProRegular.otf) format("opentype"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.homepage {
+  background-color: #fff;
+  width: 100%;
+  text-align: center; }
+
+.top-bar {
+  height: 32px;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #efa693;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center; }
+
+.top-bar-text {
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #444950; }
+
+@media (max-width: 768px) {
+  .top-bar-text {
+    font-family: "Neogrotesk Ess";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase; } }
+
+.section-title {
+  padding-top: 31px;
+  display: flex;
+  margin-left: 216px;
+  margin-right: 226px; }
+
+.section-title-text {
+  width: 566px;
+  height: 131px;
+  left: 216px;
+  top: 63px; }
+
+.section-title-text h1 {
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  color: #444950;
+  text-align: left;
+  position: absolute;
+  z-index: 2; }
+
+.decor {
+  position: absolute;
+  width: 70px;
+  height: 24px;
+  left: 192px;
+  top: 100px;
+  background: #caf0ff;
+  border-radius: 100px;
+  z-index: 1; }
+
+@media (max-width: 768px) {
+  .section-title {
+    margin-left: 33px;
+    margin-top: 29px;
+    margin-right: 0px;
+    padding: 0;
+    flex-direction: column; }
+  .section-title-text {
+    width: auto;
+    height: 80px; }
+  .section-title-text h1 {
+    font-family: "Abhaya Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 128%; }
+  .decor {
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    left: auto;
+    top: auto;
+    margin-top: 17px; } }
+
+.slider-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 286px; }
+
+.background-btn {
+  width: 70px;
+  height: 24px;
+  background: #ffdcd3;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 8px;
+  margin-top: 51px; }
+
+.btn-slider {
+  background: #fff;
+  border-radius: 50%;
+  border: none;
+  width: 39.5px;
+  height: 39.5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  align-self: center;
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.25)); }
+
+@media (max-width: 768px) {
+  .slider-buttons {
+    margin-left: 0px;
+    margin-top: 23px; }
+  .background-btn {
+    margin-right: 8px;
+    margin-top: 0px; } }
+
+.slider-section {
+  width: 100%;
+  height: 470px;
+  margin-top: 50px; }
+
+.slider {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  transition: all 0.2s;
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+  -ms-overflow-style: none;
+  /* IE 11 */
+  scrollbar-width: none;
+  /* Firefox 64 */ }
+
+.slider::-webkit-scrollbar {
+  display: none; }
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%; }
+
+.card {
+  position: relative;
+  z-index: 10;
+  margin-right: 8px;
+  margin-left: 8px; }
+
+.card .card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+
+.button-cart {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 16px;
+  margin-left: 11px;
+  margin-right: 12px;
+  background: #fff;
+  opacity: 0.9;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  height: 48px;
+  width: 297px;
+  font-family: "Neogrotesk Ess";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #efa693;
+  cursor: pointer; }
+
+.card-text h2 {
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 132%;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  text-align: left; }
+
+.info-product {
+  display: flex;
+  align-items: center; }
+
+.stars {
+  display: flex; }
+
+.stars .reviews {
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #939393;
+  margin-left: 6px; }
+
+.price {
+  margin-left: auto;
+  display: flex;
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 180%;
+  text-align: right; }
+
+.price .price-ant {
+  text-decoration-line: line-through;
+  color: #444950;
+  margin-left: 8px; }
+
+.star {
+  width: 17px;
+  height: 17px;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background: #fff; }
+
+.star-border {
+  filter: drop-shadow(0px 0px 1px #ffc658);
+  display: flex; }
+
+.star-border:hover {
+  cursor: pointer; }
+
+.star-active {
+  background-color: #ffc658; }
+
+@media (max-width: 768px) {
+  .slider-section {
+    width: auto;
+    margin-left: 22px;
+    margin-top: 33px;
+    height: auto; }
+  .img-card {
+    height: 247px;
+    width: 247px;
+    border-radius: 15px; }
+  .button-cart {
+    height: 48px;
+    width: 220px;
+    border-radius: 100px;
+    padding: 12px 26px 12px 26px; }
+  .card-text h2 {
+    font-family: "Filson Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132%;
+    color: #444950; }
+  .info-product {
+    display: block; }
+  .price div:first-child {
+    order: 1; }
+  .price .price-ant {
+    margin-right: 8px;
+    margin-left: 0px; } }
+
+.browse-section {
+  margin-top: 79px; }
+
+.button-browse {
+  width: 237px;
+  height: 48px;
+  background: #efa693;
+  opacity: 0.9;
+  border: 1px solid #efa693;
+  border-radius: 100px;
+  font-family: "Neogrotesk Ess";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer; }
+
+@media (max-width: 768px) {
+  .browse-section {
+    margin-top: 41px; } }
+
+.contact-section {
+  width: auto;
+  height: 550px;
+  background: url(../assets/backgroundwave.svg);
+  background-size: cover;
+  margin-top: 68px;
+  text-align: -webkit-center; }
+
+.contact-section .contact-section-first-text {
+  height: 88px;
+  width: 757px;
+  padding-top: 197px;
+  margin-bottom: 62px;
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  text-align: center;
+  color: #444950; }
+
+.contact-section-second-text {
+  height: 54px;
+  width: 440px;
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 180%;
+  color: #939393; }
+
+.info-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.form-contact {
+  padding-top: 28px;
+  margin-bottom: 73px;
+  display: flex;
+  justify-content: center; }
+
+.contact_input {
+  background: #fff;
+  border: 1px solid #efa693;
+  border-radius: 100px;
+  height: 48px;
+  width: 360px;
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 180%;
+  color: #939393;
+  padding-left: 24px;
+  color: #939393; }
+
+input::placeholder {
+  font-family: "Filson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 180%;
+  color: #939393; }
+
+.contact_button {
+  cursor: pointer;
+  width: 119px;
+  height: 48px;
+  background: #efa693;
+  opacity: 0.9;
+  border: 1px solid #efa693;
+  border-radius: 100px;
+  font-family: "Neogrotesk Ess";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; }
+
+@media (max-width: 768px) {
+  .contact-section {
+    width: auto;
+    background: url(../assets/backgroundwave.svg);
+    background-size: cover;
+    margin-top: 58.8px; }
+  .contact-section .contact-section-first-text {
+    width: auto;
+    height: 112px;
+    margin-bottom: 8px;
+    font-family: "Abhaya Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 128%; }
+  .contact-section-second-text {
+    height: 81px;
+    width: 335px;
+    margin-bottom: 16px; }
+  .form-contact {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center; }
+  .contact_input {
+    height: 48px;
+    width: 335px;
+    background: #ffffff;
+    border: 1px solid #efa693;
+    border-radius: 100px;
+    margin-bottom: 8px; }
+  .contact_button {
+    height: 48px;
+    width: 199px;
+    border-radius: 100px; } }
+
+@media (max-width: 374px) {
+  .contact_input {
+    width: auto; }
+  .if {
+    width: auto; } }
+
+.pills {
+  position: relative;
+  width: auto;
+  height: auto; }
+
+.pills .pill1 {
+  position: absolute;
+  height: 78.00000104875821px;
+  width: 54.00000072606337px;
+  left: 73px;
+  top: 347.35546875px;
+  border-radius: 0px; }
+
+.pills .pill2 {
+  position: absolute;
+  height: 36.93218943042989px;
+  width: 37.5801195667291px;
+  left: 105px;
+  top: 164.1396484375px;
+  border-radius: 0px; }
+
+.pills .pill3 {
+  position: absolute;
+  height: 51px;
+  width: 49px;
+  left: 304.654296875px;
+  top: 177px;
+  border-radius: 0px; }
+
+.pills .pill4 {
+  position: absolute;
+  height: 40.44698720079356px;
+  width: 48.774307309695736px;
+  left: 82.92%;
+  top: 377.5322265625px;
+  border-radius: 0px; }
+
+.pills .pill5 {
+  position: absolute;
+  height: 68.0000017564862px;
+  width: 72.00000185980892px;
+  left: 94%;
+  top: 149px;
+  border-radius: 0px; }
+
+@media (max-width: 768px) {
+  .pills {
+    position: relative;
+    width: auto;
+    height: auto; }
+  .pills .pill1 {
+    position: absolute;
+    height: 47.67178790293953px;
+    width: 33.00354429751281px;
+    left: 11px;
+    top: 247.45361328125px;
+    border-radius: 0px; }
+  .pills .pill2 {
+    position: absolute;
+    height: 22.572095558674807px;
+    width: 22.968095461643205px;
+    left: 30.55859375px;
+    top: 135.4765625px;
+    border-radius: 0px; }
+  .pills .pill3 {
+    position: absolute;
+    height: 31.170013427734375px;
+    width: 29.947660446166992px;
+    left: 152.58203125px;
+    top: 143.33642578125px;
+    border-radius: 0px; }
+  .pills .pill4 {
+    position: absolute;
+    height: 21.46191218098927px;
+    width: 25.88054087893579px;
+    left: 244px;
+    top: 375px;
+    border-radius: 0px; }
+  .pills .pill5 {
+    position: absolute;
+    height: 36px;
+    width: 38px;
+    left: 307px;
+    top: 270px;
+    border-radius: 0px; } }
+
+@media (max-width: 374px) {
+  .pills .pill5 {
+    position: absolute;
+    left: 270px; } }

@@ -1,0 +1,68 @@
+.section-title {
+  padding-top: 31px;
+  display: flex;
+  margin-left: 216px;
+  margin-right: 226px;
+}
+
+.section-title-text {
+  width: 566px;
+  height: 131px;
+  left: 216px;
+  top: 63px;
+}
+
+.section-title-text h1 {
+  font-family: $desktop-h2-desktop;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  color: $body-titles;
+  text-align: left;
+  position: absolute;
+  z-index: 2;
+}
+
+.decor {
+  position: absolute;
+  width: 70px;
+  height: 24px;
+  left: 192px;
+  top: 100px;
+  background: $blue-decor;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    margin-left: 33px;
+    margin-top: 29px;
+    margin-right: 0px;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .section-title-text {
+    width: auto;
+    height: 80px;
+  }
+
+  .section-title-text h1 {
+    font-family: "Abhaya Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 128%;
+  }
+
+  .decor {
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    left: auto;
+    top: auto;
+    margin-top: 17px;
+  }
+}

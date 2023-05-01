@@ -1,0 +1,151 @@
+//Estilos seccion contacto
+.contact-section {
+  width: auto;
+  height: 550px;
+  background: url(../assets/backgroundwave.svg);
+  background-size: cover;
+  margin-top: 68px;
+  text-align: -webkit-center;
+}
+
+.contact-section .contact-section-first-text {
+  height: 88px;
+  width: 757px;
+  padding-top: 197px;
+  margin-bottom: 62px;
+  font-family: $desktop-h2-desktop;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  text-align: center;
+  color: $body-titles;
+}
+
+.contact-section-second-text {
+  height: 54px;
+  width: 440px;
+  font-family: $font-filson-pro;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 180%;
+  color: $gray-paragraph;
+}
+
+.info-contact{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-contact {
+  padding-top: 28px;
+  margin-bottom: 73px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_input {
+  background: #fff;
+  border: 1px solid $primary-palette-brand-2;
+  border-radius: 100px;
+  height: 48px;
+  width: 360px;
+
+  font-family: $font-filson-pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 180%;
+  color: $gray-paragraph;
+  padding-left: 24px;
+  color: $gray-paragraph;
+}
+
+input::placeholder {
+  font-family: $font-filson-pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 180%;
+  color: $gray-paragraph;
+}
+
+.contact_button {
+  cursor: pointer;
+  width: 119px;
+  height: 48px;
+  background: $primary-palette-brand-2;
+  opacity: 0.9;
+  border: 1px solid $primary-palette-brand-2;
+  border-radius: 100px;
+  font-family: $font-neogrotesk-ess;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    width: auto;
+    background: url(../assets/backgroundwave.svg);
+    background-size: cover;
+    margin-top: 58.8px;
+  }
+
+  .contact-section .contact-section-first-text {
+    width: auto;
+    height: 112px;
+    margin-bottom: 8px;
+    font-family: "Abhaya Libre";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 128%;
+  }
+
+  .contact-section-second-text {
+    height: 81px;
+    width: 335px;
+    margin-bottom: 16px;
+  }
+
+  .form-contact {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact_input {
+    height: 48px;
+    width: 335px;
+    background: #ffffff;
+    border: 1px solid #efa693;
+    border-radius: 100px;
+    margin-bottom: 8px;
+  }
+
+  .contact_button {
+    height: 48px;
+    width: 199px;
+    border-radius: 100px;
+  }
+}
+
+@media (max-width: 374px) {
+  .contact_input {
+    width: auto;
+  }
+
+  .if {
+    width: auto;
+  }
+}
