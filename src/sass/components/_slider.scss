@@ -14,7 +14,6 @@
 .slider {
   display: flex;
   width: 100%;
-  overflow: hidden;
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
@@ -29,7 +28,6 @@
 .slider-loading{
   display: flex;
   width: 100%;
-  overflow: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth;
   transition: all 0.2s;
